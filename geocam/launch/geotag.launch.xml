@@ -1,0 +1,6 @@
+<launch>
+	<node pkg="geocam" exec="campub"/>
+	<node pkg="geocam" exec="fb"/>
+	<node pkg="geocam" exec="capim"/>
+	<node pkg="geocam" exec="rc_trigger.py"/>
+</launch>
