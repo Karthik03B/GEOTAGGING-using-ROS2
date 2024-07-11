@@ -1,0 +1,4 @@
+if [ -z "$SSH_TTY" ] && [ -z "$DISPLAY" ]; then
+    source ~/bash_scripts/startup_handler.sh
+fi
+
